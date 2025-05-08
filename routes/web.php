@@ -10,7 +10,10 @@ Route::controller(StripePaymentController::class)->group(function(){
 });
 
 
-
+// php artisan make:controller StripePaymentController
+//composer require stripe/stripe-php
+//php artisan make:model payment
+//php artisan make:mail PaymentSuccessful
 
 // Route::get('/', function () {
 //     return view('welcome');
